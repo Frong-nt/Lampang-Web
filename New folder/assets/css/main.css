@@ -49,9 +49,16 @@
 	}
 	@font-face{
 		font-family: nitan ;
-		src: url(../fonts/SOV_wayo-Bold.ttf);
+		src: url(../fonts/SanamDeklen_chaya.otf);
 	}
 .special{
+	font-family: nitan;
+}
+@font-face{
+		font-family: nitan ;
+		src: url(../fonts/SanamDeklen_chaya.otf);
+	}
+.content {
 	font-family: nitan;
 }
 /* Box Model */
