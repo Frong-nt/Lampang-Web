@@ -2,9 +2,38 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,600,700,800");
 @font-face{
-	font-family: thaifont;
-	src:url(../../Waffle Font/Waffle Regular.otf);
+		font-family: nitan ;
+		src: url(../fonts/SanamDeklen_chaya.otf);
+	}
+.content{
+	font-family: nitan  !important;
+	font-size: 1.6vw;
 }
+@font-face{
+		font-family: nitan ;
+		src: url(../fonts/SanamDeklen_chaya.otf);
+	}
+.box{
+	font-family: nitan  !important;
+	font-size: 2vw;
+}
+@font-face{
+		font-family: nitan ;
+		src: url(../fonts/SanamDeklen_chaya.otf);
+	}
+.links{
+	font-family: nitan  !important;
+	font-size: 1.6vw;
+}
+@font-face{
+		font-family: nitan ;
+		src: url(../fonts/SanamDeklen_chaya.otf);
+	}
+.logo{
+	font-family: nitan  !important;
+	font-size: 2vw;	
+}
+
 /*
 	Road Trip by TEMPLATED
 	templated.co @templatedco
@@ -52,6 +81,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	
 /* Box Model */
 
 	*, *:before, *:after {
