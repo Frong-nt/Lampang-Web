@@ -3476,11 +3476,9 @@
 			}
 
 		#footer .copyright {
-			color: #bbb;
-			font-size: 0.9rem;
-			margin: 0 0 2rem 0;
-			padding: 0 1rem;
-			text-align: center;
+		   color: rgba(255, 255, 255, 0.5);
+		   font-size: 0.8em;
+		   text-align: center;
 		}
 
 		@media screen and (max-width: 736px) {
