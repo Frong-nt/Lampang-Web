@@ -288,6 +288,10 @@ p {
 #fh5co-main {
   padding: 3.5em 0 7em 0;
 }
+.nitan-font {
+  font-family: nitan !important;
+  text-shadow: 2px 1px 1px #000;
+}
 @media screen and (max-width: 768px) {
   #fh5co-main {
     padding: 2em 0;
@@ -390,7 +394,6 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.9s;
   -o-transition: 0.9s;
   transition: 0.9s;
@@ -405,6 +408,9 @@ p {
   vertical-align: middle;
   margin-top: -18px;
 }
+.bar {
+  background-color: black;
+}
 @media screen and (max-width: 768px) {
   .fh5co-grid .fh5co-col-1 .fh5co-item a .fh5co-item-text,
   .fh5co-grid .fh5co-col-2 .fh5co-item a .fh5co-item-text {
@@ -415,9 +421,11 @@ p {
 .fh5co-grid .fh5co-col-2 .fh5co-item a .fh5co-item-text h2 {
   margin: 0;
   padding: 0;
+  padding-top: 7px;
   color: #fff;
-  font-family: "Roboto", arial, sans-serif;
+  font-family: nitan;
   font-size: 30px;
+  text-shadow: 2px 1px 1px #000;
 }
 @media screen and (max-width: 768px) {
   .fh5co-grid .fh5co-col-1 .fh5co-item a .fh5co-item-text h2,
